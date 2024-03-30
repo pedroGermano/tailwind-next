@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.text__title {
+  @apply font-bold text-primary text-5xl gap-3 flex items-center before:w-1 before:h-8 before:bg-sky-500 before:flex;
+}
+
+.btn {
+  @apply bg-sky-500 px-4 py-2 rounded-md font-semibold mt-4 enabled:hover:bg-sky-600 disabled:opacity-60 disabled:cursor-not-allowed;
+}
